@@ -13,7 +13,7 @@
 header{
     background-color:rgb(243, 206, 151);
     padding: 2% 5%;
-    color:rgb(245, 243, 243)
+    color:#e06880 ;
 }
 nav{
     display: flex;
@@ -25,4 +25,44 @@ nav{
 }
 .link-add{
     text-decoration: none;
+}
+
+nav li:hover{
+    background-color: rgb(244, 239, 141);
+    padding: 8px;
+    border-radius: 5px;
+}
+.banner-bg{
+    background-color:#f6d7dd ; 
+
+}
+.banner{
+    display: flex;
+    width:90%;
+    margin:auto
+   
+}
+.banner-title>h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.banner-title{
+    width:50%;
+    height:auto;
+    padding: 10% 5% 5% 10%;
+
+}
+.banner-img{
+    width:30%;
+    height:auto
+}
+.banner-title>p{
+    margin-bottom: 20px;
+}
+.banner-title>button{
+    padding: 15px 25px;
+    background-color:#e06880 ; 
+    color: white;
+    border-radius: 5px;
+    border:none;
 }
