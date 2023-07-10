@@ -2,3 +2,27 @@
     margin:0px;
     padding:0px;
 }
+.menu-bar{
+    display:flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+header{
+    background-color:rgb(243, 206, 151);
+    padding: 2% 5%;
+    color:rgb(245, 243, 243)
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    margin-right: 20px;
+    list-style: none;
+}
+.link-add{
+    text-decoration: none;
+}
