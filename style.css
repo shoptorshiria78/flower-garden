@@ -179,7 +179,7 @@ nav li:hover {
     width: 72%;
     margin: auto;
     margin-top: 80px;
-    padding: 20px ;
+    padding: 20px;
 }
 
 .job {
@@ -192,7 +192,8 @@ nav li:hover {
     height: auto;
     padding: 10px;
 }
-.sale{
+
+.sale {
     display: flex;
     justify-content: space-around;
     height: auto;
@@ -200,20 +201,23 @@ nav li:hover {
     background-color: #f6ebee;
     margin-top: 140px;
 }
-.sale-add{
-    padding:80px;
-    margin:auto;
-    width:40%;
+
+.sale-add {
+    padding: 80px;
+    margin: auto;
+    width: 40%;
     text-align: center;
     margin-left: 140px;
 }
-.sale-add>h3{
+
+.sale-add>h3 {
     text-align: center;
     font-size: 30px;
     padding: 150px 5px 20px 5px;
-    
+
 }
-.sale-add>button{
+
+.sale-add>button {
     padding: 15px 25px;
     background-color: #e06880;
     color: white;
@@ -221,14 +225,48 @@ nav li:hover {
     border: none;
     margin-top: 30px;
 }
-.sale-pic img{
-    height:400px;
-    width:300px;
-    padding:40px;
+
+.sale-pic img {
+    height: 400px;
+    width: 300px;
+    padding: 40px;
     margin-right: 160px;
 }
-.insta-pic{
+
+.insta-pic {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+
+}
+
+.insta-pic>img {
+    height: 270px;
+    width: 230px;
+
+}
+
+.instagram{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.insta{
+
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.insta>p{
+    text-align: center;
+    padding: 20px 5px 40px 5px;
+}
+.insta>h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 90px 5px 20px 5px;
+
 }
