@@ -52,12 +52,11 @@ nav li:hover{
     padding: 10% 5% 5% 10%;
 
 }
-.banner-img{
-    width:30%;
-    height:auto
-}
+
+    
 .banner-title>p{
     margin-bottom: 20px;
+    width:80%;
 }
 .banner-title>button{
     padding: 15px 25px;
@@ -65,4 +64,83 @@ nav li:hover{
     color: white;
     border-radius: 5px;
     border:none;
+}
+.banner>img{
+    margin-right: 0px;
+    width:30%;
+    height:auto;
+}
+.heading{
+    width:60%;
+    height:auto;
+    margin:auto;
+
+}
+.heading>p{
+    text-align: center;
+    padding: 20px 5px 40px 5px;
+}
+.heading>h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 150px 5px 20px 5px;
+}
+
+.flower-items{
+    display: flex;
+    justify-content: space-around;
+    height:auto;
+    width: 50%;
+    margin: auto;
+    align-items:baseline;
+}
+.flower-items>img{
+    width:5%;
+    height:auto;
+}
+.featured-flowers{
+    width:60%;
+    height:auto;
+    margin: auto;
+}
+.flower-pink{
+    background-color:#f5d0e2;
+    border-radius: 50% 50% 0% 0%;
+    margin-right: 20px;
+    padding:80px 40px 0px 40px;
+   
+}
+ .flower-pink>img{
+    width:200px;
+    height:260px;
+    
+} 
+.flower-bouquet{
+    
+    background-color:#d1f1f3;
+    margin-right: 20px;
+    border-radius: 50% 50% 0% 0%;
+    padding:80px 40px 0px 40px;
+   
+}
+.flower-bouquet>img{
+    width:200px;
+    height:260px;
+   
+}
+.flower-yellow{
+    background-color:#ddf0cb;
+    margin-right: 20px;
+    border-radius: 50% 50% 0% 0%;
+    padding:80px 40px 0px 40px;
+  
+   
+}
+.flower-yellow>img{
+    width:200px;
+    height:260px;
+   
+}
+.flower-link{
+   padding-top: 20px;
 }
