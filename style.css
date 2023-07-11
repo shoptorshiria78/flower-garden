@@ -270,3 +270,47 @@ nav li:hover {
     padding: 90px 5px 20px 5px;
 
 }
+.subscribe{
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-size: 95% 80%;
+    background-position: center;
+    height:450px;
+    background-repeat: no-repeat;
+    width:80%;
+    margin: auto;
+    padding:10px;
+
+}
+.sub-head{
+    width:60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+}
+.sub-head>p{
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+
+}
+.sub-head>h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 90px 5px 5px 5px;
+
+}
+.sub-head>input{
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+.sub-head>button{
+    background-color: #e06880;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height:39px;
+    width:100px;
+
+}
