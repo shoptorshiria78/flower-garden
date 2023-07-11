@@ -1,21 +1,25 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
+
 
 .menu-bar {
     display: flex;
     list-style: none;
     display: flex;
     justify-content: space-around;
-
+    
 
 }
 
 header {
-    background-color: rgb(243, 206, 151);
+    background-color: rgb(242, 243, 200);
     padding: 2% 5%;
     color: #e06880;
+    position: sticky;
+    top:0px;
 }
 
 nav {
@@ -33,10 +37,12 @@ nav {
 }
 
 nav li:hover {
-    background-color: rgb(244, 239, 141);
+    background-color:  #f2b4c1;
     padding: 8px;
     border-radius: 5px;
 }
+
+   
 
 .banner-bg {
     background-color: #f6d7dd;
@@ -338,4 +344,80 @@ footer>p{
 footer>.copy-right{
     font-size: smaller;
     color:#a49d9d;
+}
+.feedback{
+    background-image: url("./Flower Asset/yellow-tulips.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+
+
+.feedback>h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 90px 5px 5px 5px;
+}
+.feedback>p{
+    text-align: center;
+    padding: 20px 5px 15px 5px;
+    width:100%;
+    margin:auto;
+    line-height: 30px;
+    color:#614a4a;
+}
+fieldset{
+    filter:opacity(.8);
+    border:none;
+    width:20%;
+    margin:auto;
+}
+fieldset input[type=text]{
+    width:100%;
+    filter:opacity(.8);
+    padding:12px 20px;
+    margin:8px 0px;
+    display: inline-block;
+    border:1px solid rgb(239, 99, 99)
+}
+fieldset button{
+    background-color: #e94a6a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height:39px;
+    width:100px;
+}
+.hed{
+    font-size: 40px;
+    text-align: center;
+    padding:20px;
+    color:#e94a6a;
+    
+}
+.dis{
+    display: flex;
+    align-items: center;
+    height:auto;
+    justify-content: space-around;
+}
+.para{
+    width:40%;
+    padding:20px;
+    margin:auto;
+    height:auto;
+}
+.yelo{
+    width:400px;
+    height: 350px;
+    margin: 20px 100px 50px 10px;
+    
+}
+.pik{
+    width:400px;
+    height: 350px;
+    margin:20px 10px 50px 100px;
 }
